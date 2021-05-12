@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=y, initial-scale=1.0">
+    <title>Manan fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+       
+    
+    body {
+        font-family: 'Baloo Bhaina 2', cursive;
+        color: white;
+        margin: auto;
+        padding: 0px;
+        background: url('img/mjj.jpg');
+        display: inline block;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .left {
+        position: absolute;
+        left: 30px;
+        top: 20px;
+        border: 2px solid red;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .left img {
+        line-height: 19px;
+        font-size: 26px;
+        width: 93px;
+    }
+    
+    .left div {
+        text-align: center;
+    }
+    
+    .mid {
+        border: 2px solid green;
+        width: 53%;
+        margin: 20px auto;
+        display: block;
+    }
+    
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        border: 2px solid yellow;
+        display: inline-block;
+    }
+    
+    .navbar {
+        display: inline-block;
+    }
+    
+    .navbar li {
+        display: inline-block;
+        font-size: 23px;
+    }
+    
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    
+    .btn {
+        font-family: 'Baloo Bhaina 2', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: rgb(129, 122, 122);
+    }
+    
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+    }
+    
+    .containers {
+        border: 2px solid #f4f5f4;
+        margin: 106px 80px;
+        padding: 75px;
+        border-radius: 28px;
+    }
+    
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 488px;
+        padding: 4px;
+        border: 2px solid black;
+        margin: 7px auto;
+        font-size: 19px;
+        border-radius: 21px;
+    }
+    
+    .container h1 {
+        text-align: center;
+    }
+    
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/logo.jpg" alt="">
+            <div>Manan Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <a href="#"></a>
+            <button class="btn">call us </button>
+            <button class="btn">Email us </button>
+        </div>
+
+    </header>
+    <div class="containers">
+        <h1>join the best gym of Hyderabad now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
